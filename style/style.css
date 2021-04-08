@@ -17,3 +17,24 @@
     background: url(../images/daniel-storek-1552081-unsplash.jpg)no-repeat center /cover;
     height: 100vh;
 }
+
+.header__menu{
+    display: flex;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu-link{
+ color: black;  
+ font-size: 20px;
+ margin-left: 40px; 
+ transition:  color 200ms;
+}
+
+.header__menu-link:activegit add .{
+color: yellow;
+}
