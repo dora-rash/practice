@@ -5,3 +5,15 @@
     list-style: none;
     text-decoration: none;
 }
+
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    background: url(../images/daniel-storek-1552081-unsplash.jpg)no-repeat center /cover;
+    height: 100vh;
+}
