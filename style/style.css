@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    text-decoration: none;`
+    text-decoration: none;
 }
 
 .container{
@@ -16,6 +16,7 @@
 .header{
     background: url(../images/daniel-storek-1552081-unsplash.jpg)no-repeat center /cover;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .header__menu{
@@ -35,6 +36,20 @@
  transition:  color 200ms;
 }
 
-.header__menu-link:activegit add .{
+.header__menu-link:active{
 color: yellow;
+}
+
+.main{
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    box-shadow: 0 0 50px 50px yellow;
 }
